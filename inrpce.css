@@ -1,0 +1,54 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+/*  Reset  */
+
+* { box-sizing: border-box; }
+html {
+	border-top: 2px solid #069;
+	color: #555;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+body { width: 960px; margin: 0 auto; }
+h1 { font-weight: normal; margin: 0 0 .5em; }
+a { color: #069; }
+p { line-height: 1.3; margin: 0 0 1em; }
+
+.inrpce-header {
+	border-bottom: 1px solid #eee;
+	margin-bottom: 20px;
+	padding: 50px 0 20px;
+}
+.inrpce-logo { font-size: 72px; font-weight: 100; margin: 0; }
+.inrpce-logo a { text-decoration: none; }
+.inrpce-logo span { color: #555; }
+.inrpce-logo small {
+	color: #ccc;
+	font-size: 13px;
+	font-weight: 300;
+	letter-spacing: .2em;
+	text-transform: uppercase;
+}
+.inrpce-cover {
+	height: 400px;
+	background: url(awesome-pizza-rolls.jpg) center;
+	background-size: cover;
+	color: #fff;
+	margin-bottom: 20px;
+	padding: 200px 500px 50px 50px;
+	text-shadow: 0 1px 2px rgba(0,0,0,.3);
+}
+.inrpce-cover a { color: #fff; text-decoration: none; }
+.inrpce-cover p { color: #fff; }
+.inrpce-content { padding: 50px 0; }
+.inrpce-content:after { clear: both; content: ''; display: table; }
+.inrpce-main { width: 600px; float: left; }
+.inrpce-side { width: 300px; float: right; }
+.inrpce-article:first-child p { font-size: 20px; }
+.inrpce-footer {
+	border-top: 1px solid #eee;
+	line-height: 30px;
+	padding: 50px 0;
+}
+.inrpce-copyright { color: #ccc; font-size: 13px; letter-spacing: .1em; }
